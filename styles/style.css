@@ -73,6 +73,7 @@ aside .menu{
           margin-top: 20px;
           background-color:black ;
           border-radius: 10px;
+          width: 230px;
 }
 .btn{
 
@@ -100,26 +101,32 @@ aside .menu{
 
 
 .match{
-          border: 1px solid white;
+          border: 1px solid lightgrey;
           border-radius: 10px;
           padding: 20px;
           box-shadow: 2px 2px 2px white;
+         
+     
        
 }
 .bal{
-    display: grid;
-      grid-template-columns:
+       display: grid;
+       grid-template-columns:
         repeat(3, 1fr);
+        gap: 20px;
      
 }
 
+
 .match-description a{
           display: inline-block;
-          padding: 5px 10px; 
+          padding: 5px 5px; 
+          text-align: center;
           
         
 
 }
+
 .icon img{
           display: inline-block;
           margin-right:5px ;
@@ -160,9 +167,9 @@ aside .menu{
   padding: 10px 0;
   }
  .menu-list a {
-text-decoration: none;
-color: #fff;
-padding: 0 25px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 25px;
 }
 
 
